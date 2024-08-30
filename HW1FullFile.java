@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 import java.io.*;
 
-public class Main {
+class Main {
     public static void main(String[] noargs){
         // Person obj = new Person("tim", "timmy", "24521");
         // System.out.print(obj);
@@ -40,7 +40,7 @@ public class Main {
         }
     }
 
-    public class MyMain {
+    public static class MyMain {
         
         public static void store(Scanner input, LinkedList<Person> list) {
             while (input.hasNextLine()) {
@@ -72,7 +72,7 @@ public class Main {
     }
 }
 
-public class Person {
+class Person {
     //part 1 -------------------------------------------------
     private String firstName;
     private String lastname;
